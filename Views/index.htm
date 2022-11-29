@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../Assets/needle-removebg-preview.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/index.css" />
+    <link rel="stylesheet" href="../Styles/home.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Image Stitching Online </title>
+</head>
+<body>
+    <nav class="home"> Online and Free Image Stitching </nav>
+    <div id="drop-area" class="input-box"> 
+        <span class="h1">Upload an image to remove the background</span>
+        <div class="card card-with-shadow card-rounded-max card-without-border upload-widget-card">
+            <div class="card-body">
+                <img class="preview" />
+                <input id="file-selector"  accept=".jpg, .jpeg, .png" type="file" class="btn" />
+                <span style="margin-top: 16px;">Or a Drop a file</span>
+            </div>
+        </div>
+     </div>
+     <script src="../Scripts/fileSelector.js"></script>
+</body>
+</html>

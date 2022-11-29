@@ -1,0 +1,26 @@
+.input-box {
+    min-height: 400px;
+    background-image: url("../Assets/blob.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem;
+}
+.h1, h1 {
+    font-size: 2.25rem;
+    margin-bottom: 2.4rem;
+    display: block;
+    max-width: 450px;
+    text-align: center;
+    font-weight: 650;
+}
+.preview {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 8px;
+    border-radius: 12px;
+}
